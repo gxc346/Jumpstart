@@ -1,0 +1,66 @@
+/* universal styling */
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
+}
+
+/* Navbar and links */
+.navbar-default .navbar-nav > .active > a {
+  color: #399bd1;
+  background-color: #f8f8f8;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #399bd1;
+  background-color: #f8f8f8;
+}
+
+.navbar {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: url('file:///home/onyxxx/projects/Jumpstart/resources/images/jumbotron-bike.jpg');
+  text-align: center;
+}
+
+.jumbotron > h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 7.1rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+              1px -1px 0 #000,
+               -1px -1px 0 #000,
+              1px -1px 0 #000;
+}
+
+/* Featured Project */
+.featured-project h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #399bd1;
+}
+
+.featured-project h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.featured-project .categories h3 {
+  color: #399bd1;
+}
+
+.featured-project .image-container {
+  margin-top: 20px;
+  height: 20rem;
+}
+
+.image-container img {
+  width: 100%;
+}
